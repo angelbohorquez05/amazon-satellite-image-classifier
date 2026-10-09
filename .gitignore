@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+.venv/
+
+# Dataset (download from Kaggle, see README) and intermediate files
+data/
+
+# Local tool settings
+.claude/
+
+# Created by Gradio when the demo runs
+.gradio/

@@ -1,0 +1,45 @@
+{
+  "labels": [
+    "primary",
+    "water",
+    "agriculture",
+    "road",
+    "cloudy"
+  ],
+  "features": [
+    "R_mean",
+    "R_std",
+    "G_mean",
+    "G_std",
+    "B_mean",
+    "B_std",
+    "H_mean",
+    "H_std",
+    "S_mean",
+    "S_std",
+    "V_mean",
+    "V_std",
+    "ExG",
+    "texture_mean",
+    "texture_std",
+    "ratio_RG",
+    "ratio_GB",
+    "entropy",
+    "edge_mean",
+    "edge_std",
+    "edge_frac",
+    "patch_V_min",
+    "patch_V_max",
+    "patch_ExG_min",
+    "patch_ExG_max",
+    "anomaly_score"
+  ],
+  "thresholds": {
+    "primary": 0.31,
+    "water": 0.44,
+    "agriculture": 0.54,
+    "road": 0.45,
+    "cloudy": 0.56
+  },
+  "anomaly_limit": 0.622
+}
