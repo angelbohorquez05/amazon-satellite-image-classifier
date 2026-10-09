@@ -125,7 +125,7 @@ The tuned thresholds are kept anyway: they were chosen before looking at the tes
 ## Try the demo
 
 ```bash
-git clone https://github.com/<your-username>/amazon-satellite-image-classifier.git
+git clone https://github.com/angelbohorquez05/amazon-satellite-image-classifier.git
 cd amazon-satellite-image-classifier
 pip install -r requirements.txt
 python demo/app.py
